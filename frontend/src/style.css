@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-oxocarbon-bg: #161616;
+  --color-oxocarbon-surface: #262626;
+  --color-oxocarbon-text: #dde1e6;
+  --color-oxocarbon-primary: #ee5396;
+  --color-oxocarbon-secondary: #33b1ff;
+  --color-oxocarbon-success: #42be65;
+  --color-oxocarbon-error: #fa4d56;
+  --color-oxocarbon-hover: #393939;
+}
+
+body {
+  @apply bg-oxocarbon-bg text-oxocarbon-text;
+}
