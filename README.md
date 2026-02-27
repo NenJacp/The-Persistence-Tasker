@@ -34,7 +34,7 @@ La aplicación estará disponible en: [http://localhost:5173](http://localhost:5
 
 ##  Flujo de Datos (Para el Diagrama)
 
-Para crear tu diagrama de flujo, sigue esta secuencia:
+Diagrama de flujo:
 
 1.  **Input del Usuario:** El usuario escribe el nombre de una tarea y hace clic en "Agregar".
 2.  **Frontend (Petición POST):** Vue captura el evento y realiza una petición `axios` (POST) hacia el backend enviando el JSON `{ "title": "Nueva Tarea" }`.
