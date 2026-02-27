@@ -32,7 +32,7 @@ La aplicación estará disponible en: [http://localhost:5173](http://localhost:5
 - `frontend/`: Aplicación Vue.js 3 (Vite + Tailwind CSS v4) con el tema **Oxocarbon**.
 - `Entregables/`: Carpeta con los diagramas y capturas de pantalla de las pruebas.
 
-##  Flujo de Datos (Para el Diagrama)
+##  Flujo de Datos (Diagrama)
 
 Diagrama de flujo:
 
