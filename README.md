@@ -2,11 +2,11 @@
 
 Práctica 2: Sistema de Gestión de Tareas Asíncrono con Vue.js 3 y Express.
 
-## 🚀 Requisitos
+##  Requisitos
 - [Node.js](https://nodejs.org/)
 - [pnpm](https://pnpm.io/) (O recomendado para el frontend)
 
-## 🛠️ Cómo iniciar
+##  Cómo iniciar
 
 ### 1. Iniciar el Backend
 Desde la raíz del proyecto, ejecuta:
@@ -26,13 +26,13 @@ pnpm dev
 ```
 La aplicación estará disponible en: [http://localhost:5173](http://localhost:5173)
 
-## 📂 Estructura del Proyecto
+##  Estructura del Proyecto
 
 - `backend/`: Servidor Express.js que gestiona las tareas con persistencia en `tasks.json`.
 - `frontend/`: Aplicación Vue.js 3 (Vite + Tailwind CSS v4) con el tema **Oxocarbon**.
 - `Entregables/`: Carpeta con los diagramas y capturas de pantalla de las pruebas.
 
-## 🔄 Flujo de Datos (Para el Diagrama)
+##  Flujo de Datos (Para el Diagrama)
 
 Para crear tu diagrama de flujo, sigue esta secuencia:
 
@@ -48,13 +48,16 @@ Para crear tu diagrama de flujo, sigue esta secuencia:
     - Vue recibe la respuesta exitosa.
     - Agrega la tarea al arreglo reactivo `tasks`.
     - Muestra una notificación (Toast) de éxito.
-    - El DOM se actualiza automáticamente mediante la reactividad de Vue.
+    - El DOM se updatea automáticamente mediante la reactividad de Vue.
 
 ### Evidencia del Diagrama
 ![Diagrama de Flujo](./Entregables/diagrama.png)
 
-## 🧪 Pruebas
+##  Pruebas
 Puedes observar los **logs de la consola del servidor** para ver las peticiones en tiempo real (GET, POST, DELETE). La persistencia se mantiene en el archivo `backend/tasks.json` incluso si reinicias el servidor.
 
-### Evidencia de Pruebas (Consola)
-![Captura de pantalla del servidor](./Entregables/Salidas%20de%20consola.png)
+### Evidencia de Pruebas (Frontend)
+![Prueba Frontend](./Entregables/Prueba_FrontEnd.png)
+
+### Evidencia de Pruebas (Backend)
+![Prueba Backend](./Entregables/Prueba_BackEnd.png)
